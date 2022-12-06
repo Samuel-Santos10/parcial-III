@@ -7,4 +7,6 @@ $apellido . ", <br />
 Te has registrado con el siguiente 
 correo electrónico: " . $email . 
 ".";
+
+include("bd.php"); //incluimos nuestra base de datos
 ?>
