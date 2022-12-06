@@ -4,7 +4,7 @@
 $host= "localhost";
 $bd= "db_registros"; //nombre de la base de datos
 $usuario="root";
-$contrasenia="";
+$contrasenia="123456";
 
 try {
   $conexion = new PDO("mysql:host=$host;dbname=$bd",$usuario,$contrasenia,$nombre, $apellido, $email); //PDO se utiliza para comunicar directamente con la base de datos
