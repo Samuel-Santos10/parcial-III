@@ -1,7 +1,7 @@
 <?php
 //  creamos variables para conectarnos con la base de datos -->
 
-$host= "localhost";
+$host= "192.168.100.108";
 $bd= "db_registros"; //nombre de la base de datos
 $usuario="root";
 $contrasenia="123456";
